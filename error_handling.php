@@ -18,4 +18,18 @@ $b = 0;
 // This will generate error
 echo($a / $b);
 
+echo "<br>";
+
+// 2. Accessing an array element that doesn't exist
+$myArray = array("apple", "banana", "orange");
+echo $myArray[3];
+
+echo "<br>";
+
+// 3. Attempting to divide by a string
+$number = 10;
+$string = "abc";
+echo $number / $string;
+echo "<br>";
+
 ?>
