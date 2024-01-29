@@ -1,0 +1,15 @@
+1.empty string
+if (isset($_POST['submit'])&& !empty($_POST['str']))
+
+2.validate string
+if (!preg_match ("/^[a-zA-z]*$/", $name)
+
+3.validate email
+$pattern = "^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$^"; 
+        if (!preg_match ($pattern, $name) )
+
+4.validate number
+if (!preg_match ("/^[0-9]*$/", $name) )
+
+5.validate url
+if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$name))

@@ -14,6 +14,6 @@ session_start();
     <p>Class: <?php echo $_SESSION['class']; ?></p>
     <p>Contact: <?php echo $_SESSION['contact']; ?></p>
     <p>Email: <?php echo $_SESSION['emailid']; ?></p>
-    <p>State: <?php echo $_SESSION['state']; ?></p>
+    <h1>State: <?php echo $_SESSION['state']; ?></h1>
 </body>
 </html>
